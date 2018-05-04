@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experiment Snapshot"
-date:   2018-05-04 22:21:08 +0200
+date:   yuuuuuuu018-05-04 22:21:08 +0200
 categories: experiments
 ---
 Experiment configs: 
@@ -15,7 +15,7 @@ Loss: -3.6
 
 Sample images:
 
-![Big Data Exp]({{"/assets/images/bigdata_exp.png"| absolute_url}} | width=100)
+![Big Data Exp]({{"/assets/images/bigdata_exp.png"| absolute_url}}){ width=50% }
 ![Big Data Square]({{"/assets/images/bigdata_sqre.png"| absolute_url}})
 ![Small Data Exp]({{"/assets/images/smalldata_exp.png"| absolute_url}})
 ![Small Data Square]({{"/assets/images/smalldata_square.png"| absolute_url}})
