@@ -15,7 +15,4 @@ Loss: -3.6
 
 Sample images:
 
-![Big Data Exp](/assets/images/bigdata_exp.png)
-![Big Data Sqre](/assets/images/bigdata_sqre.png)
-![Small Data Exp](/assets/images/smalldata_exp.png)
-![Small Data Sqre](/assets/images/smalldata_sqre.png)
+![Big Data Exp]({{"/assets/images/bigdata_exp.png"| absolute_url}})
