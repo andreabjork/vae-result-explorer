@@ -15,7 +15,7 @@ Loss: -3.6
 
 Sample images:
 
-![Big Data Exp]({{ "/assets/images/bigdata_exp.png" | absolute_url }})
-![Big Data Sqre]({{ "/assets/images/bigdata_sqre.png" | absolute_url }})
-![Small Data Exp]({{ "/assets/images/smalldata_exp.png" | absolute_url }})
-![Small Data Sqre]({{ "/assets/images/smalldata_sqre.png" | absolute_url }})
+![Big Data Exp]({{ "/assets/images/bigdata_exp.png" | "https://andreabjork.github.io/vae-result-explorer" }})
+![Big Data Sqre]({{ "/assets/images/bigdata_sqre.png" | "https://andreabjork.github.io/vae-result-explorer" }})
+![Small Data Exp]({{ "/assets/images/smalldata_exp.png" | "https://andreabjork.github.io/vae-result-explorer" }})
+![Small Data Sqre]({{ "/assets/images/smalldata_sqre.png" | "https://andreabjork.github.io/vae-result-explorer" }})
