@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Experiment 201805081101
-date:   2018-05-08 17:11:16
+date:   2018-05-08 17:11:55
 categories: experiments
 ---
 {% highlight ruby %}
@@ -31,7 +31,6 @@ class config(object):
     do_training = True  
 {% endhighlight %}
 Result: Loss: -3.5960, Reconstruction: -3.5982, KL: 7414.7019  
-
 
 ![]({{"/assets/images/201805081101/0.png"| absolute_url}}){:width="950px"}.
 ![]({{"/assets/images/201805081101/1.png"| absolute_url}}){:width="950px"}.
