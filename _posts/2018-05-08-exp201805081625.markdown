@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Experiment 201805081625
-date:   2018-05-08 18:34:09
+date:   2018-05-08 19:23:37
 categories: experiments
 ---
 Date: 2018-05-08 16:25  
@@ -25,7 +25,6 @@ class config(object):
     rot = 1  
     modelid = "201805081101"  
     directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
-    blog_directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/vae-result-explorer/_posts"  
     do_training = True  
   
 {% endhighlight %}
@@ -35,3 +34,9 @@ Result: Loss: -3.6172, Reconstruction: -3.6188, KL: 5351.1769
 ![]({{"/assets/images/201805081625/1.png"| absolute_url}}){:width="950px"}.
 ![]({{"/assets/images/201805081625/2.png"| absolute_url}}){:width="950px"}.
 ![]({{"/assets/images/201805081625/3.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/4.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/5.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/6.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/7.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/8.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/9.png"| absolute_url}}){:width="950px"}.
