@@ -1,10 +1,9 @@
 ---
 layout: post
 title:  Experiment 201805081101
-date:   2018-05-08 17:11:55
+date:   2018-05-08 17:27:28
 categories: experiments
 ---
-{% highlight ruby %}
 Date: 2018-05-08 11:01  
 Data: /media/andrea/Storage/Workspace/ThesisWorkspace/data/n100100_rot1.memmap  
 {% highlight ruby %}
@@ -28,9 +27,10 @@ class config(object):
     modelid = "YYMMDDHHMM"  
     directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
     blog_directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/vae-result-explorer/_posts"  
-    do_training = True
+    do_training = True  
 {% endhighlight %}
 Result: Loss: -3.5960, Reconstruction: -3.5982, KL: 7414.7019  
+
 ![]({{"/assets/images/201805081101/0.png"| absolute_url}}){:width="950px"}.
 ![]({{"/assets/images/201805081101/1.png"| absolute_url}}){:width="950px"}.
 ![]({{"/assets/images/201805081101/2.png"| absolute_url}}){:width="950px"}.
