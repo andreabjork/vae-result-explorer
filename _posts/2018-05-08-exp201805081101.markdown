@@ -6,7 +6,8 @@ categories: experiments
 ---
 Date: 2018-05-08 11:01
 Data: /media/andrea/Storage/Workspace/ThesisWorkspace/data/n100100_rot1.memmap
-Configuration: 
+Configuration:   
+{% highlight ruby %}
 class config(object):  
     batch_size = 64  
     latent_dim = 100 # Try changing this  
@@ -27,7 +28,7 @@ class config(object):
     directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
     blog_directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/vae-result-explorer/_posts"  
     do_training = True  
-
+{% endhighlight %}
 Result: Loss: -3.5960, Reconstruction: -3.5982, KL: 7414.7019  
 
 ![]({{"/assets/images/201805081101/0.png"| absolute_url}}){:width="950px"}.
