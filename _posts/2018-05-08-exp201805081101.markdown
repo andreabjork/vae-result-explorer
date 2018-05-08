@@ -1,0 +1,36 @@
+---
+layout: post
+title:  Experiment 201805081101
+date:   2018-05-08 13:30:02
+categories: experiments
+---
+Date: 2018-05-08 11:01Data: /media/andrea/Storage/Workspace/ThesisWorkspace/data/n100100_rot1.memmap
+Configuration: 
+class config(object):
+    batch_size = 64
+    latent_dim = 100 # Try changing this
+    epochs = 200
+    epoch_updates = 100
+    learning_rate = 1e-3 
+    time_loss_mult = 0.0005 
+    kl_loss_mult = 0.00003 # Try changing this
+    kl_extra_mult = 2 
+    kl_extra_exponent = 2
+    n_ae = 5
+    
+    ## CHANGING THIS MAY NOT WORK DIRECTLY
+    input_s = 128
+
+    # PATHS
+    numimgs = 100100
+    rot = 1
+    modelid = "YYMMDDHHMM"
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"
+    blog_directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/vae-result-explorer/_posts"
+    do_training = True
+Result: Loss: -3.5960, Reconstruction: -3.5982, KL: 7414.7019
+
+![]({{"/assets/images/201805081101/0.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081101/1.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081101/2.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081101/3.png"| absolute_url}}){:width="950px"}.
