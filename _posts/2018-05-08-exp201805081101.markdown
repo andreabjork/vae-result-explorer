@@ -30,7 +30,4 @@ class config(object):
     do_training = True  
 {% endhighlight %}
 Result: Loss: -3.5960, Reconstruction: -3.5982, KL: 7414.7019  
-![]({{"/assets/images/201805081101/0.png"| absolute_url}}){:width="950px"}.
-![]({{"/assets/images/201805081101/1.png"| absolute_url}}){:width="950px"}.
-![]({{"/assets/images/201805081101/2.png"| absolute_url}}){:width="950px"}.
-![]({{"/assets/images/201805081101/3.png"| absolute_url}}){:width="950px"}.
+{% responsive_image path: assets/images/201805081101/0.png %}
