@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Experiment 201805081101
-date:   2018-05-08 17:27:28
+date:   2018-05-08 17:28:34
 categories: experiments
 ---
 Date: 2018-05-08 11:01  
 Data: /media/andrea/Storage/Workspace/ThesisWorkspace/data/n100100_rot1.memmap  
-{% highlight ruby %}
 Configuration:   
+{% highlight ruby %}
 class config(object):  
     batch_size = 64  
     latent_dim = 100 # Try changing this  
