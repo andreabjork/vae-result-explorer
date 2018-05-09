@@ -18,8 +18,8 @@ email: andreabjorkb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Experiment explorer. Each post includes the configuration used
   for the particular run, the loss and several example images.
-baseurl: "/vae-result-explorer" # the subpath of your site, e.g. /blog
-url: "https://andreabjork.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://andreabjork.github.io/vae-result-explorer" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  andreabjork
 
 # Build settings
@@ -27,4 +27,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+future: true
 
