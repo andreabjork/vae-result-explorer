@@ -5,7 +5,7 @@ date:   2018-05-09 17:17:12
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-Experiment with latent dimension 500. Using KL loss multiplier.
+Experiment with log loss. Latent dimension 500. Using KL loss multiplier.  
 
  <!--more-->
 Date: 2018-05-08 13:52  

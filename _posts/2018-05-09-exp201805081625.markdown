@@ -5,7 +5,7 @@ date:   2018-05-09 17:18:20
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-Experiment with exponential stddev and slower learning rate.
+Experiment with log loss. Using exponential stddev and slower learning rate.  
 
  <!--more-->
 Date: 2018-05-08 16:25  

@@ -5,7 +5,7 @@ date:   2018-05-09 17:18:11
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-Experiment with high latent space (1000).
+Experiment with log loss. Using high latent space (1000).  
 
  <!--more-->
 Date: 2018-05-08 14:51  
