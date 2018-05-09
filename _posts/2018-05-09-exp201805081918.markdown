@@ -5,7 +5,7 @@ date:   2018-05-09 17:18:33
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-Experiment with l2 loss. Using high latent dimension space and 0 KL multiplier, exponential stddev.
+Experiment with log loss. Using high latent dimension space and 0 KL multiplier, exponential stddev.
 
 
 
