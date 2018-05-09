@@ -29,4 +29,5 @@ plugins:
   - jekyll-feed
 
 future: true
+show_excerpts: true
 
