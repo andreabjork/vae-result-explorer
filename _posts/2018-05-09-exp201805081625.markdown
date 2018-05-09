@@ -1,0 +1,46 @@
+---
+layout: post
+title:  Experiment 201805081625
+date:   2018-05-09 16:57:29
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with exponential stddev and slower learning rate.
+
+ <!--more-->
+Date: 2018-05-08 16:25  
+Data: n100100_rot1.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 64  
+    latent_dim = 100  
+    epochs = 200  
+    epoch_updates = 100  
+    learning_rate = 5e-4   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.00003   
+    kl_extra_mult = 2   
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = True  
+    input_s = 128  
+    numimgs = 100100  
+    rot = 1  
+    modelid = "201805081101"  
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: -3.6172, Reconstruction: -3.6188, KL: 5351.1769  
+
+![]({{"/assets/images/201805081625/0.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/1.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/2.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/3.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/4.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/5.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/6.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/7.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/8.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805081625/9.png"| absolute_url}}){:width="950px"}.
