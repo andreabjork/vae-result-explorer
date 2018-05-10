@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  Experiment 201805101531
-date:   2018-05-10 19:51:59
+date:   2018-05-10 19:54:55
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-$excerpt
+Experiment with l2 loss. Using more data: 500500 images with rotation  
+
  <!--more-->
 Date: 2018-05-10 15:31  
 Data: n500500_rot5.memmap  
