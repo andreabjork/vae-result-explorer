@@ -1,0 +1,46 @@
+---
+layout: post
+title:  Experiment 201805111802
+date:   2018-05-11 21:49:23
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with l2 loss, again 500500 images (freshly generated data set)  
+
+ <!--more-->
+Date: 2018-05-11 18:02  
+Data: n500500_rot5.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 64  
+    latent_dim = 100  
+    epochs = 200  
+    epoch_updates = 100  
+    learning_rate = 1e-3   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.00003  
+    kl_extra_mult = 2   
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = False  
+    input_s = 128  
+    numimgs = 500500  
+    rot = 5  
+    modelid = "201805081352"  
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: 0.0004, Reconstruction: 0.4427, KL: 361065.1736  
+
+![]({{"/assets/images/201805111802/0.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/1.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/2.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/3.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/4.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/5.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/6.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/7.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/8.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805111802/9.png"| absolute_url}}){:width="950px"}.
