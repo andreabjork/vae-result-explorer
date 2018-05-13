@@ -1,0 +1,46 @@
+---
+layout: post
+title:  Experiment 201805131350
+date:   2018-05-13 17:31:30
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with 500500 images, rotating objects but no rotation recaptures  
+
+ <!--more-->
+Date: 2018-05-13 13:50  
+Data: n500500_rot1.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 64  
+    latent_dim = 100  
+    epochs = 200  
+    epoch_updates = 100  
+    learning_rate = 1e-3   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.00003  
+    kl_extra_mult = 2   
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = False  
+    input_s = 128  
+    numimgs = 500500  
+    rot = 1  
+    modelid = "201805081352"  
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: 0.0003, Reconstruction: 0.6620, KL: 294390.6985  
+
+![]({{"/assets/images/201805131350/0.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/1.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/2.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/3.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/4.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/5.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/6.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/7.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/8.png"| absolute_url}}){:width="950px"}.
+![]({{"/assets/images/201805131350/9.png"| absolute_url}}){:width="950px"}.
