@@ -1,0 +1,47 @@
+---
+layout: post
+title:  Experiment 201805231358
+date:   2018-05-23 15:20:56
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with extremely small latent dimension  
+
+ <!--more-->
+Date: 2018-05-23 13:58  
+Data: n500500_rot1_complex.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 64  
+    latent_dim = 5  
+    epochs = 50  
+    epoch_updates = 100  
+    learning_rate = 1e-3   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.0000  
+    kl_extra_mult = 2   
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = False  
+    input_s = 128  
+    numimgs = 500500  
+    rot = 1  
+    modelid = "201805081352"  
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
+    use_complex_images =  True  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: 0.0023, l2_loss: 0.0023, l2_extra: 2141125721.0000  
+
+![]({{"/assets/images/201805231358/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231358/9.png"| absolute_url}}){:width="950px"}
