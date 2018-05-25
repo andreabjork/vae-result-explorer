@@ -1,0 +1,47 @@
+---
+layout: post
+title:  Experiment 201805231828
+date:   2018-05-23 19:52:50
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with smaller KL multiplier to accommodate new l2 loss.  
+
+ <!--more-->
+Date: 2018-05-23 18:28  
+Data: n500500_rot1_complex.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 64  
+    latent_dim = 5  
+    epochs = 50  
+    epoch_updates = 100  
+    learning_rate = 1e-3   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.000003  
+    kl_extra_mult = 20  
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = False  
+    input_s = 128  
+    numimgs = 500500  
+    rot = 1  
+    modelid = "201805081352"  
+    directory = "/media/andrea/Storage/Workspace/ThesisWorkspace/data/"  
+    use_complex_images =  True  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: 0.0033, l2_loss: 0.0031, l2_extra: 8539.1563  
+
+![]({{"/assets/images/201805231828/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805231828/9.png"| absolute_url}}){:width="950px"}
