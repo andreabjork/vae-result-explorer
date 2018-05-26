@@ -1,0 +1,47 @@
+---
+layout: post
+title:  Experiment 201805251413
+date:   2018-05-26 17:19:41
+categories: experiments
+excerpt_separator: <!--more-->
+---
+2 epochs to verify that posting blog works on the cluster pt 3  
+
+ <!--more-->
+Date: 2018-05-25 14:13  
+Data: n500500_rot1_complex.memmap  
+Configuration:   
+{% highlight ruby %}
+class config(object):  
+    batch_size = 256  
+    latent_dim = 100  
+    epochs = 2  
+    epoch_updates = 100  
+    learning_rate = 1e-3   
+    time_loss_mult = 0.0005   
+    kl_loss_mult = 0.00003  
+    kl_extra_mult = 2  
+    kl_extra_exponent = 2  
+    n_ae = 5  
+    use_exp = False  
+    input_s = 128  
+    numimgs = 500500  
+    rot = 1  
+    modelid = "201805081352"  
+    directory = "/cluster/scratch/bjandrea/data"  
+    use_complex_images =  True  
+    do_training = True  
+  
+{% endhighlight %}
+Result: Loss: 0.0058, l2_loss: 0.0053, l2_extra: 1810.9879  
+
+![]({{"/assets/images/201805251413/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805251413/9.png"| absolute_url}}){:width="950px"}
