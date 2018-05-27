@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Experiment 201805272146
-date:   2018-05-27 22:59:13
+date:   2018-05-27 23:03:46
 categories: experiments
 excerpt_separator: <!--more-->
 ---
@@ -39,7 +39,8 @@ Configuration:
     "rot": 1,   
     "input_s": 128  
 }  
- Result: Loss: 0.0028, l2_loss: 0.0022, kl: 1996.9398  
+{% endhighlight %}
+Result: Loss: 0.0028, l2_loss: 0.0022, kl: 1996.9398  
 
 ![]({{"/assets/images/201805272146/0.png"| absolute_url}}){:width="950px"}
 ![]({{"/assets/images/201805272146/1.png"| absolute_url}}){:width="950px"}
