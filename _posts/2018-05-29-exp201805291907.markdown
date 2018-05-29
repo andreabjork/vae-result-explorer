@@ -1,0 +1,54 @@
+---
+layout: post
+title:  Experiment 201805291907
+date:   2018-05-29 21:20:50
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with simple objects and 3 VAE for comparison (KL = 0)  
+
+ <!--more-->
+Date: 2018-05-29 19:07  
+Data: n500500_rot1.memmap  
+Configuration:   
+{% highlight ruby %}
+{  
+    "kl_extra_exponent": 2,   
+    "numimgs": 500500,   
+    "modelid": "201805081352",   
+    "epoch_updates": 100,   
+    "learning_rate": 0.001,   
+    "latent_dim": 100,   
+    "use_kl_scaling": false,   
+    "batch_size": 64,   
+    "epochs": 200,   
+    "time_loss_mult": 0.0005,   
+    "do_training": true,   
+    "use_complex_images": false,   
+    "kl_loss_mult": 0.0,   
+    "use_exp": false,   
+    "kl_loss_scale_mult": [  
+        0.0,   
+        3e-07,   
+        3e-06,   
+        3e-05  
+    ],   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "kl_extra_mult": 2,   
+    "n_ae": 3,   
+    "rot": 1,   
+    "input_s": 128  
+}  
+{% endhighlight %}
+Result: Loss: 0.0004, l2_loss: 0.0004, kl: 207023.1442  
+
+![]({{"/assets/images/201805291907/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805291907/9.png"| absolute_url}}){:width="950px"}
