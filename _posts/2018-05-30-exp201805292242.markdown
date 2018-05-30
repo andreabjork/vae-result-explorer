@@ -1,0 +1,55 @@
+---
+layout: post
+title:  Experiment 201805292242
+date:   2018-05-30 09:52:11
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with complex objects and background. Using scaling kl and 5 autoencoders  
+
+ <!--more-->
+Date: 2018-05-29 22:42  
+Data: n500500_rot1_complex_w_bckgr.memmap  
+Configuration:   
+{% highlight ruby %}
+{  
+    "kl_extra_exponent": 2,   
+    "numimgs": 500500,   
+    "modelid": "201805081352",   
+    "epoch_updates": 100,   
+    "learning_rate": 0.001,   
+    "latent_dim": 100,   
+    "use_kl_scaling": true,   
+    "batch_size": 64,   
+    "epochs": 200,   
+    "time_loss_mult": 0.0005,   
+    "do_training": true,   
+    "use_complex_images": true,   
+    "kl_loss_mult": 3e-06,   
+    "use_exp": false,   
+    "kl_loss_scale_mult": [  
+        0.0,   
+        3e-07,   
+        3e-06,   
+        3e-05  
+    ],   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "use_background": true,   
+    "kl_extra_mult": 2,   
+    "n_ae": 5,   
+    "rot": 1,   
+    "input_s": 128  
+}  
+{% endhighlight %}
+Result: Loss: 1499999.8750, l2_loss: 0.0354, kl: 4999999897600.0000  
+
+![]({{"/assets/images/201805292242/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805292242/9.png"| absolute_url}}){:width="950px"}
