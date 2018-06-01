@@ -1,0 +1,55 @@
+---
+layout: post
+title:  Experiment 201806011329
+date:   2018-06-01 16:41:13
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with complex images and background with lower KL scaling (nonzero start)  
+
+ <!--more-->
+Date: 2018-06-01 13:29  
+Data: n500500_rot1_complex_w_bckgr.memmap  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 2,   
+    "kl_extra_mult": 2,   
+    "kl_loss_mult": 3e-06,   
+    "kl_loss_scale_mult": [  
+        3e-13,   
+        3e-12,   
+        3e-11,   
+        3e-10  
+    ],   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "modelid": "201805081352",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "rot": 1,   
+    "time_loss_mult": 0.0005,   
+    "use_background": true,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_scaling": true  
+}  
+{% endhighlight %}
+Result: Loss: 0.0010, l2_loss: 0.0010, kl: 977672.2734  
+
+![]({{"/assets/images/201806011329/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806011329/9.png"| absolute_url}}){:width="950px"}
