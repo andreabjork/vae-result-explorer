@@ -5,7 +5,7 @@ date:   2018-06-16 17:03:20
 categories: experiments
 excerpt_separator: <!--more-->
 ---
-New data. KL from 3e-12 to 3e-11; kl_extra_exp 4, extra_mult = 20, n_a=6  
+New data. KL from 3e-13 to 3e-12; kl_extra_exp 4, extra_mult = 10, n_a=6  
 
  <!--more-->
 Date: 2018-06-16 06:22  
