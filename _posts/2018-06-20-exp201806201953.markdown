@@ -1,0 +1,71 @@
+---
+layout: post
+title:  Experiment 201806201953
+date:   2018-06-20 19:55:55
+categories: experiments, classifier
+excerpt_separator: <!--more-->
+---
+Classifier, first experiment.  
+
+ <!--more-->
+Date: 2018-06-20 19:53  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_comparison": false,   
+    "do_training_classif": true,   
+    "do_training_cnn": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "items": [  
+        "car",   
+        "hat",   
+        "tv"  
+    ],   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "max_mult": 3e-11,   
+    "min_mult": 6e-12,   
+    "modelid": "201806160741",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": true,   
+    "use_kl_step_scale": false,   
+    "use_mono_background": true,   
+    "use_singles": false  
+}  
+{% endhighlight %}
+Result: Loss: [0.55779344 0.6137154  0.61227006]   
+
+![]({{"/assets/images/201806201953/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/9.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/10.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/11.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/12.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/13.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/14.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/15.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/16.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/17.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/18.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/19.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/20.png"| absolute_url}}){:width="950px"}
