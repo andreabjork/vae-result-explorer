@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805141437
 date:   2018-05-14 18:29:30
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with more complex figures: Key, car and TV (first try)  

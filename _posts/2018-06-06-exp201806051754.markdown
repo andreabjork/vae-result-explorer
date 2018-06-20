@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201806051754
 date:   2018-06-06 10:19:56
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Complex objects, clean background. KL linearly scaled from 3e-11 to 3e-10; kl_extra_exp 4  

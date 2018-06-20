@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805081625
 date:   2018-05-09 17:18:20
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with log loss. Using exponential stddev and slower learning rate.  

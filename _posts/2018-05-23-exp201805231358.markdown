@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805231358
 date:   2018-05-23 15:20:56
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with extremely small latent dimension  

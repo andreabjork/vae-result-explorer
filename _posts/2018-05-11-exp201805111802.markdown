@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805111802
 date:   2018-05-11 21:49:23
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with l2 loss, again 500500 images (freshly generated data set)  

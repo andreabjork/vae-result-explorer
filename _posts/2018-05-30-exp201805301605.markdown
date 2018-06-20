@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805301605
 date:   2018-05-30 22:31:04
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with complex objects and background with KL  

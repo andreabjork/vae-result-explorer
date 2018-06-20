@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201806032012
 date:   2018-06-04 17:16:01
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Complex objects, clean background. KL step scaled from 3e-09 to 3e-06  

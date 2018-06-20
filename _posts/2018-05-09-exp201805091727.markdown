@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201805091727
 date:   2018-05-09 18:56:04
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Experiment with l2 loss, 100 latent space, 0 KL multiplier

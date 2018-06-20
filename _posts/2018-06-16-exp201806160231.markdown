@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201806160231
 date:   2018-06-16 17:02:59
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 New data. KL from 9e-12 to 3e-11; kl_extra_exp 4, extra_mult = 10, n_ae=5  

@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201806130658
 date:   2018-06-13 13:41:53
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 New data. KL linearly scaled from 3e-11 to 6e-10; kl_extra_exp 4, n_ae=5  

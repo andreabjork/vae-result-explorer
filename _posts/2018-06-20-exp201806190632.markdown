@@ -3,6 +3,7 @@ layout: post
 title:  Experiment 201806190632
 date:   2018-06-20 08:59:10
 categories: experiments
+tags: bestof
 excerpt_separator: <!--more-->
 ---
 Batch 128. KL from 3e-13 to 3e-12; kl_extra_exp 4, extra_mult 10, n_ae=6  
