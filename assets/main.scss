@@ -1,0 +1,37 @@
+---
+---
+
+@import "minima";
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.wrapper {
+    max-width:1100px;
+}
+
+.large_header {
+    font-size: 52px;
+}
+
+.spacious {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtext{
+   font-style: italic;
+   font-size: 20px;
+   text-align: right;
+}
+
+.exp_link {
+   text-align: right;
+   text-decoration: none;
+}
+
+.gifstyle {
+   padding: 50px;
+}
