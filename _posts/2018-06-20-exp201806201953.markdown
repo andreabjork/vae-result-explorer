@@ -48,24 +48,24 @@ Configuration:
 {% endhighlight %}
 Result: Loss: [0.55779344 0.6137154  0.61227006]   
 
-![]({{"/assets/images/201806201953/0.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/1.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/2.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/3.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/4.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/5.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/6.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/7.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/8.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/9.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/10.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/11.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/12.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/13.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/14.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/15.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/16.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/17.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/18.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/19.png"| absolute_url}}){:width="950px"}
-![]({{"/assets/images/201806201953/20.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806201953/0.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/1.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/2.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/3.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/4.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/5.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/6.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/7.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/8.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/9.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/10.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/11.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/12.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/13.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/14.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/15.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/16.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/17.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/18.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/19.png"| absolute_url}}){:width="550px"}
+![]({{"/assets/images/201806201953/20.png"| absolute_url}}){:width="550px"}
