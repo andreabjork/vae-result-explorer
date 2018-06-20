@@ -1,0 +1,54 @@
+---
+layout: post
+title:  Experiment 201805281643
+date:   2018-05-29 10:38:52
+categories: experiments
+excerpt_separator: <!--more-->
+---
+Experiment with reverse KL multiplier scaling  
+
+ <!--more-->
+Date: 2018-05-28 16:43  
+Data: n500500_rot1_complex.memmap  
+Configuration:   
+{% highlight ruby %}
+{  
+    "kl_extra_exponent": 2,   
+    "numimgs": 500500,   
+    "modelid": "201805081352",   
+    "epoch_updates": 100,   
+    "learning_rate": 0.001,   
+    "latent_dim": 100,   
+    "use_kl_scaling": true,   
+    "batch_size": 64,   
+    "epochs": 200,   
+    "time_loss_mult": 0.0005,   
+    "do_training": true,   
+    "use_complex_images": true,   
+    "kl_loss_mult": 3e-06,   
+    "use_exp": false,   
+    "kl_loss_scale_mult": [  
+        3e-05,   
+        3e-06,   
+        3e-07,   
+        0.0  
+    ],   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "kl_extra_mult": 2,   
+    "n_ae": 3,   
+    "rot": 1,   
+    "input_s": 128  
+}  
+{% endhighlight %}
+Result: Loss: 0.0009, l2_loss: 0.0009, kl: 42223.8839  
+
+![]({{"/assets/images/201805281643/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201805281643/9.png"| absolute_url}}){:width="950px"}

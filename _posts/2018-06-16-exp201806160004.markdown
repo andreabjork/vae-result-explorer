@@ -1,0 +1,53 @@
+---
+layout: post
+title:  Experiment 201806160004
+date:   2018-06-16 17:02:53
+categories: experiments
+excerpt_separator: <!--more-->
+---
+New data. KL from 9e-12 to 3e-11; kl_extra_exp 4, extra_mult = 10,  n_ae=6   
+
+ <!--more-->
+Date: 2018-06-16 00:04  
+Data: n500500_rot1_new_complex_w_monobckgr.memmap  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "max_mult": 3e-11,   
+    "min_mult": 9e-12,   
+    "modelid": "201806040046",   
+    "n_ae": 6,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": true,   
+    "use_kl_step_scale": false,   
+    "use_mono_background": true,   
+    "use_singles": false  
+}  
+{% endhighlight %}
+Result: Loss: 0.0009, l2_loss: 0.0009, kl: 29533329.2188  
+
+![]({{"/assets/images/201806160004/0.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/1.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/2.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/3.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/4.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/5.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/6.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/7.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/8.png"| absolute_url}}){:width="950px"}
+![]({{"/assets/images/201806160004/9.png"| absolute_url}}){:width="950px"}
