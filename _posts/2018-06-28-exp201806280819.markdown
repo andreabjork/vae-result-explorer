@@ -1,0 +1,56 @@
+---
+layout: post
+title:  Experiment 201806280819
+date:   2018-06-28 10:19:01
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+Cross-entropy test. 1 autoencoder, KL_mult 0, 100 lat dim for 50 epoch  
+
+ <!--more-->
+Date: 2018-06-28 08:19  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "epoch_updates": 100,   
+    "epochs": 50,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "kl_loss_mult": 0.0,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "max_mult": 3e-05,   
+    "min_mult": 3e-06,   
+    "modelid": "201806040046",   
+    "n_ae": 1,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_ce_loss": true,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_log_loss": false,   
+    "use_mono_background": true,   
+    "use_singles": false  
+}  
+{% endhighlight %}
+Result: Loss: 33.8156, l2_loss: 33.8156, kl: 164033599552.0000  
+
+![]({{"/assets/images/201806280819/0.png"| absolute_url}})
+![]({{"/assets/images/201806280819/1.png"| absolute_url}})
+![]({{"/assets/images/201806280819/2.png"| absolute_url}})
+![]({{"/assets/images/201806280819/3.png"| absolute_url}})
+![]({{"/assets/images/201806280819/4.png"| absolute_url}})
+![]({{"/assets/images/201806280819/5.png"| absolute_url}})
+![]({{"/assets/images/201806280819/6.png"| absolute_url}})
+![]({{"/assets/images/201806280819/7.png"| absolute_url}})
+![]({{"/assets/images/201806280819/8.png"| absolute_url}})
+![]({{"/assets/images/201806280819/9.png"| absolute_url}})
