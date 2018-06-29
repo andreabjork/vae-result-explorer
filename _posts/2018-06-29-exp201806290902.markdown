@@ -1,0 +1,57 @@
+---
+layout: post
+title:  Experiment 201806290902
+date:   2018-06-29 10:14:47
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+One autoencoder, log-loss with var_const = 1.0 and KL_mult = 0.  
+
+ <!--more-->
+Date: 2018-06-29 09:02  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "kl_loss_mult": 0.0,   
+    "latent_dim": 1000,   
+    "learning_rate": 0.001,   
+    "modelid": "201806040046",   
+    "n_ae": 1,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_ce_loss": false,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_log_loss": true,   
+    "use_mono_background": true,   
+    "use_singles": false,   
+    "var_constant": 1.0  
+}  
+{% endhighlight %}
+Result: Loss: -3.2508, l2_loss: -3.2508, kl: 21872296992.0000  
+
+![]({{"/assets/images/201806290902/0.png"| absolute_url}})
+![]({{"/assets/images/201806290902/1.png"| absolute_url}})
+![]({{"/assets/images/201806290902/2.png"| absolute_url}})
+![]({{"/assets/images/201806290902/3.png"| absolute_url}})
+![]({{"/assets/images/201806290902/4.png"| absolute_url}})
+![]({{"/assets/images/201806290902/5.png"| absolute_url}})
+![]({{"/assets/images/201806290902/6.png"| absolute_url}})
+![]({{"/assets/images/201806290902/7.png"| absolute_url}})
+![]({{"/assets/images/201806290902/8.png"| absolute_url}})
+![]({{"/assets/images/201806290902/9.png"| absolute_url}})
