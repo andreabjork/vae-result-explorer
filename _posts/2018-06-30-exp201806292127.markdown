@@ -1,0 +1,57 @@
+---
+layout: post
+title:  Experiment 201806292127
+date:   2018-06-30 11:24:58
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+One autoencoder, log-loss with var_const = 1.5 and KL_mult = 0; Testing sigmoid  
+
+ <!--more-->
+Date: 2018-06-29 21:27  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "kl_loss_mult": 0.0,   
+    "latent_dim": 1000,   
+    "learning_rate": 0.001,   
+    "modelid": "201806040046",   
+    "n_ae": 1,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_ce_loss": false,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_log_loss": true,   
+    "use_mono_background": true,   
+    "use_singles": false,   
+    "var_constant": 1.5  
+}  
+{% endhighlight %}
+Result: Loss: -3.3753, l2_loss: -3.3753, kl: 193660507.8750  
+
+![]({{"/assets/images/201806292127/0.png"| absolute_url}})
+![]({{"/assets/images/201806292127/1.png"| absolute_url}})
+![]({{"/assets/images/201806292127/2.png"| absolute_url}})
+![]({{"/assets/images/201806292127/3.png"| absolute_url}})
+![]({{"/assets/images/201806292127/4.png"| absolute_url}})
+![]({{"/assets/images/201806292127/5.png"| absolute_url}})
+![]({{"/assets/images/201806292127/6.png"| absolute_url}})
+![]({{"/assets/images/201806292127/7.png"| absolute_url}})
+![]({{"/assets/images/201806292127/8.png"| absolute_url}})
+![]({{"/assets/images/201806292127/9.png"| absolute_url}})
