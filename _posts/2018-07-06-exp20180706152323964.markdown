@@ -1,0 +1,66 @@
+---
+layout: post
+title:  Experiment 20180706152323964
+date:   2018-07-06 18:46:27
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+Network REWORK+a removed: 5 ae, log-loss, KL 3e-11 extra_exp 2, extra_mult 2  
+
+ <!--more-->
+Date: 2018-07-06 15:23  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 10,   
+    "kl_loss_mult": 3e-11,   
+    "kl_loss_scale_mult": [  
+        3e-11,   
+        3e-12,   
+        3e-13,   
+        3e-13  
+    ],   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "loss_type": "loglike",   
+    "max_mult": 3e-10,   
+    "min_mult": 6e-11,   
+    "modelid": "201806040046",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_ce_loss": false,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_log_loss": true,   
+    "use_mono_background": true,   
+    "use_singles": false,   
+    "var_constant": 0.0  
+}  
+{% endhighlight %}
+Result: Loss: nan, Reconstruction: nan, KL: 49999998976.0000, Total KL: 1.5000  
+
+![]({{"/assets/images/20180706152323964/0.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/1.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/2.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/3.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/4.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/5.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/6.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/7.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/8.png"| absolute_url}})
+![]({{"/assets/images/20180706152323964/9.png"| absolute_url}})
