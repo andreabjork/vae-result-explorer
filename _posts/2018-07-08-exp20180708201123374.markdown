@@ -1,0 +1,58 @@
+---
+layout: post
+title:  Experiment 20180708201123374
+date:   2018-07-08 22:13:23
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+Rerun of: 1 ae, log-loss, KL=0.0 but with mixture gaussian implementation  
+
+ <!--more-->
+Date: 2018-07-08 20:11  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 2,   
+    "kl_extra_mult": 2,   
+    "kl_loss_mult": 0.0,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "loss_type": "loglike",   
+    "n_ae": 1,   
+    "numimgs": 500500,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_deterministic": false,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_mixture_gaussian": true,   
+    "use_mono_background": true,   
+    "use_random_a": true,   
+    "use_singles": false,   
+    "var_constant": 0.0  
+}  
+{% endhighlight %}
+Result: Loss: -3.4358, Reconstruction: -3.4358, KL: 2340.2058, Total KL: 0.0000  
+
+![]({{"/assets/images/20180708201123374/0.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/1.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/2.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/3.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/4.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/5.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/6.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/7.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/8.png"| absolute_url}})
+![]({{"/assets/images/20180708201123374/9.png"| absolute_url}})
