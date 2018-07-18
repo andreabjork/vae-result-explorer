@@ -1,0 +1,69 @@
+---
+layout: post
+title:  Experiment 20180717155626797
+date:   2018-07-18 10:49:25
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+Rerun with MM = True; MM loglike, complex, KL 3e-12, 0.0001 learn rate, old network, mod_exp stddev  
+
+ <!--more-->
+Date: 2018-07-17 15:56  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 100,   
+    "input_s": 128,   
+    "kl_extra_exponent": 2,   
+    "kl_extra_mult": 2,   
+    "kl_loss_mult": 3e-12,   
+    "latent_dim": 100,   
+    "learn_rate_scale": [  
+        0.0001,   
+        0.0001,   
+        0.001,   
+        0.001  
+    ],   
+    "learning_rate": 0.0001,   
+    "loss_type": "loglike",   
+    "modelid": "201806040046",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "plot_dropout": true,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_deterministic": false,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_learn_rate_scale": false,   
+    "use_mixture_gaussian": true,   
+    "use_mod_exp": false,   
+    "use_mono_background": true,   
+    "use_old_network": true,   
+    "use_random_a": false,   
+    "use_singles": false,   
+    "var_constant": 1.0  
+}  
+{% endhighlight %}
+Result: Loss: -3.8384, Reconstruction: -3.8384, KL: 1194.5775, Total KL: 0.0000  
+
+![]({{"/assets/images/20180717155626797/0.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/1.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/2.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/3.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/4.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/5.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/6.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/7.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/8.png"| absolute_url}})
+![]({{"/assets/images/20180717155626797/9.png"| absolute_url}})
