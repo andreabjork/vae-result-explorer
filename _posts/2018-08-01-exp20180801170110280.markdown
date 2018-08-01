@@ -1,0 +1,68 @@
+---
+layout: post
+title:  Experiment 20180801170110280
+date:   2018-08-01 21:49:40
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+MISMATCHED AE: KL from 6e-15 to 3e-14; kl_extra_exp 4, extra_mult = 100.000, n_ae=5  
+
+ <!--more-->
+Date: 2018-08-01 17:01  
+Data: n500500_rot1_new_complex_w_monobckgr  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_incremental_training": false,   
+    "do_mismatched_ae": false,   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 4,   
+    "kl_extra_mult": 100000,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "loss_type": "l2",   
+    "max_mult": 3e-14,   
+    "min_mult": 6e-15,   
+    "modelid": "201806160741",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "plot_dropout": true,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_complex_background": false,   
+    "use_complex_images": true,   
+    "use_deterministic": false,   
+    "use_exp": false,   
+    "use_kl_extra_scale": false,   
+    "use_kl_lin_scale": true,   
+    "use_kl_step_scale": false,   
+    "use_learn_rate_scale": false,   
+    "use_mixture_gaussian": false,   
+    "use_mod_exp": false,   
+    "use_mono_background": true,   
+    "use_old_network": true,   
+    "use_random_a": true,   
+    "use_rev_kl_lin_scale": false,   
+    "use_singles": false,   
+    "var_constant": 1.0  
+}  
+{% endhighlight %}
+Result: Loss: 0.0011, Reconstruction: 0.0011, KL: 541512195.5200, Total KL: 0.0000  
+
+![]({{"/assets/images/20180801170110280/0.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/1.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/2.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/3.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/4.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/5.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/6.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/7.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/8.png"| absolute_url}})
+![]({{"/assets/images/20180801170110280/9.png"| absolute_url}})
