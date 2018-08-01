@@ -5,7 +5,7 @@ date:   2018-08-01 21:49:53
 categories: experiments, cnn
 excerpt_separator: <!--more-->
 ---
-MISMATCHED AE: KL from 6e-13 to 3e-12; kl_extra_exp 4, extra_mult = 10.000, n_ae=5  
+KL from 6e-13 to 3e-12; kl_extra_exp 4, extra_mult = 10.000, n_ae=5  
 
  <!--more-->
 Date: 2018-08-01 19:38  
