@@ -1,0 +1,76 @@
+---
+layout: post
+title:  Experiment 20180916044530786
+date:   2018-09-16 20:00:28
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+Segmentation baseline: simple dataset, loglike  
+
+ <!--more-->
+Date: 2018-09-16 04:45  
+Data: n500500_rot1  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "do_incremental_training": false,   
+    "do_mismatched_ae": false,   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "epoch_updates": 100,   
+    "epochs": 200,   
+    "input_s": 128,   
+    "kl_extra_exponent": 1,   
+    "kl_extra_mult": 0,   
+    "kl_loss_mult": 3e-09,   
+    "latent_dim": 100,   
+    "learning_rate": 0.001,   
+    "loss_type": "loglike",   
+    "max_conf_mult": 0.03,   
+    "max_mult": 3e-11,   
+    "min_conf_mult": 1e-05,   
+    "min_mult": 6e-15,   
+    "modelid": "201806040046",   
+    "n_ae": 5,   
+    "numimgs": 500500,   
+    "plot_dropout": false,   
+    "plot_heatmap": true,   
+    "plot_single_heatmaps": true,   
+    "plot_without_conf": false,   
+    "rot": 1,   
+    "use_clean_start": false,   
+    "use_complex_background": false,   
+    "use_complex_images": false,   
+    "use_conf_penal": false,   
+    "use_coord_channels": false,   
+    "use_deterministic": false,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_log_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_learn_rate_scale": false,   
+    "use_mixture_gaussian": true,   
+    "use_mod_exp": false,   
+    "use_mono_background": false,   
+    "use_old_network": true,   
+    "use_random_a": false,   
+    "use_rev_kl_lin_scale": false,   
+    "use_singles": false,   
+    "var_constant": 1.0  
+}  
+{% endhighlight %}
+Result: Loss: -4.9635, Reconstruction: -4.9650, KL: 26.4881, Total KL: 0.0000,  Total conf_loss: 0.0015  
+
+![]({{"/assets/images/20180916044530786/0.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/1.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/2.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/3.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/4.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/5.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/6.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/7.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/8.png"| absolute_url}})
+![]({{"/assets/images/20180916044530786/9.png"| absolute_url}})
