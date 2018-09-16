@@ -1,0 +1,82 @@
+---
+layout: post
+title:  Experiment 20180830113601860
+date:   2018-09-16 20:00:08
+categories: experiments, cnn
+excerpt_separator: <!--more-->
+---
+KL enabled with slow introduction of objects, 700 epochs  
+
+ <!--more-->
+Date: 2018-08-30 11:36  
+Data: n100100_rot1  
+Configuration:   
+{% highlight ruby %}
+{  
+    "batch_size": 64,   
+    "create_latents": false,   
+    "directory": "/cluster/scratch/bjandrea/data/",   
+    "disabled_kl_mult": 100.0,   
+    "do_incremental_training": true,   
+    "do_mismatched_ae": false,   
+    "do_training": true,   
+    "do_training_classif": false,   
+    "enabled_kl_mult": 1e-07,   
+    "epoch_updates": 100,   
+    "epochs": 700,   
+    "input_s": 128,   
+    "kl_extra_exponent": 1,   
+    "kl_extra_mult": 0,   
+    "kl_loss_mult": 3e-09,   
+    "kl_loss_scale_mult": [  
+        3e-12,   
+        3e-12,   
+        3e-12,   
+        3e-12  
+    ],   
+    "latent_dim": 100,   
+    "learning_rate": 0.0005,   
+    "loss_type": "l2",   
+    "max_conf_mult": 0.03,   
+    "max_mult": 3e-11,   
+    "min_conf_mult": 1e-05,   
+    "min_mult": 6e-15,   
+    "modelid": "201806040046",   
+    "n_ae": 6,   
+    "numimgs": 100100,   
+    "plot_dropout": true,   
+    "plot_heatmap": true,   
+    "rot": 1,   
+    "use_clean_start": true,   
+    "use_complex_background": false,   
+    "use_complex_images": false,   
+    "use_conf_penal": true,   
+    "use_coord_channels": false,   
+    "use_deterministic": false,   
+    "use_exp": false,   
+    "use_kl_lin_scale": false,   
+    "use_kl_log_scale": false,   
+    "use_kl_step_scale": false,   
+    "use_learn_rate_scale": false,   
+    "use_mixture_gaussian": false,   
+    "use_mod_exp": false,   
+    "use_mono_background": false,   
+    "use_old_network": true,   
+    "use_random_a": false,   
+    "use_rev_kl_lin_scale": false,   
+    "use_singles": false,   
+    "var_constant": 1.0  
+}  
+{% endhighlight %}
+Result: Loss: 0.0005, Reconstruction: 0.0004, KL: 0.0000, Total KL: 0.0000,  Total conf_loss: 0.0000  
+
+![]({{"/assets/images/20180830113601860/0.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/1.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/2.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/3.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/4.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/5.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/6.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/7.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/8.png"| absolute_url}})
+![]({{"/assets/images/20180830113601860/9.png"| absolute_url}})
